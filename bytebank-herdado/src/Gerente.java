@@ -20,9 +20,10 @@ public class Gerente extends Funcionario {
 		this.senha = senha;
 	}
 	
-//	public double getBonificacao() {
-//		return this.salario;	
-//	}
+	public double getBonificacao() {
+		System.out.println("CHAMANDO MÉTODO BONIFICAÇÃO DO GERENTE");
+		return super.getBonificacao() + super.getSalario();	
+	}
 	
 	
 }

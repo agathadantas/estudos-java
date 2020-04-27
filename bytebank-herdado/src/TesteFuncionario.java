@@ -6,7 +6,7 @@ public class TesteFuncionario {
 		Funcionario ana = new Funcionario();
 		ana.setNome("Ana Paula Silva");
 		ana.setCpf("425874263-72");
-		ana.setSalario(3700.00);
+		ana.setSalario(2000.00);
 		
 		System.out.println("Nome: " + ana.getNome());
 		System.out.println("CPF: " + ana.getCpf());
